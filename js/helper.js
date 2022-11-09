@@ -2,15 +2,15 @@ import { createContent } from "./appContent.js";
 import { createHeader } from "./appHeader.js";
 
 export const directionOfwWind = (degree) => {
-    if (degree>337.5) { return 'северный' };
-    if (degree>292.5) { return 'северо-западный' };
-    if (degree>247.5) { return 'западный' };
-    if (degree>202.5) { return 'юго-западный' };
-    if (degree>157.5) { return 'южный' };
-    if (degree>122.5) { return 'юго-восточный' };
-    if (degree>67.5) { return 'восточный' };
-    if (degree>22.5) { return 'северо-восточный' }
-    return 'северный';
+    if (degree>337.5) { return 'північний' };
+    if (degree>292.5) { return 'північно-західний' };
+    if (degree>247.5) { return 'західний' };
+    if (degree>202.5) { return 'південно-західний' };
+    if (degree>157.5) { return 'південний' };
+    if (degree>122.5) { return 'південно-східний' };
+    if (degree>67.5) { return 'східний' };
+    if (degree>22.5) { return 'північно-східний' }
+    return 'північний';
 }
 
 export const capitalizeFirstLetter = (string) => {
